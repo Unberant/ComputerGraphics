@@ -1,1 +1,1 @@
-# ComputerGraphics
+# Laboratory work №1
