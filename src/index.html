@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lab 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="screen">
+            <canvas class="canvas" id="screen" width="1200" height="800"></canvas>
+        </div>
+        <div class="menu">
+            <ul class="interface">
+                <li>
+                    <a class="button" onClick="drawDDA()">
+                        <font size="2"  face="Arial Black">алгоритм ЦДА</font>
+                    </a>
+                </li>
+                <li>
+                    <a class="button" onClick="drawBresenhamLine()">
+                        <font size="2"  face="Arial Black">Алгоритм Брезенхема для відрізка</font>
+                    </a>
+                </li>
+                <li>
+                    <a class="button" onClick="drawWu()">
+                        <font size="2"  face="Arial Black">алгоритм Ву</font>
+                    </a>
+                </li>
+                <li>
+                    <a class="button" onClick="drawBresenhamCircle()">
+                        <font size="2" face="Arial Black">Алгоритм Брезенхема для кола</font>
+                    </a>
+                </li>
+                <li>
+                    <a class="button" onClick="drawSurname()">
+                        <font size="2"  face="Arial Black">Намалювати прізвище</font>
+                    </a>
+                </li>
+            </ul>
+            <a class="button" onClick="clearScreen()" href="#">
+                <font size="2"  face="Arial Black">Очистити екран</font>
+            </a>
+            <span style="font-size:20px">
+                <!-- <font size="4"  face="Arial Black">Time measurements in nanoseconds:</font> -->
+                <p id="timeRequired">Витрачений час: </p>
+            </span><br>
+            <!-- <font size="3"  face="Arial"><span id="result"></font></span> -->
+        </div>
+    </div>
+
+</body>
+
+</html>
