@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lab 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="screen">
+            <canvas class="canvas" id="screen" width="1200" height="800"></canvas>
+        </div>
+        <div class="menu">
+            <ul class="interface">
+                <li>
+                    <a class="button" onClick="start()">
+                        <font size="2"  face="Arial Black">Початковий стан</font>
+                    </a>
+                </li>
+                <li>
+                    <a class="button" onClick="rotate()">
+                        <font size="2"  face="Arial Black">Повернути</font>
+                    </a>
+                </li>
+                <li>
+                    <a class="button" onClick="scale()">
+                        <font size="2"  face="Arial Black">Маштабувати</font>
+                    </a>
+                </li>
+                <li>
+                    <a class="button" onClick="repulsion()">
+                        <font size="2" face="Arial Black">Зробити відбиттся</font>
+                    </a>
+                </li>
+                <li>
+                    <a class="button" onClick="move()">
+                        <font size="2"  face="Arial Black">Перенести</font>
+                    </a>
+                </li>
+            </ul>
+            <a class="button" onClick="clearScreen()" href="#">
+                <font size="2"  face="Arial Black">Очистити екран</font>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
