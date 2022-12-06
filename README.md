@@ -1,2 +1,1 @@
-# ComputerGraphics  
-# Lab 3
+# Laboratory work №3
