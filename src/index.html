@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lab 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="screen">
+            <canvas class="canvas" id="screen" width="1200" height="800"></canvas>
+        </div>
+        <div class="menu">
+            <ul class="interface">
+                <li>
+                    <a class="button" onClick="startScreen()">
+                        <font size="2" face="Arial Black">Початковий стан</font>
+                    </a>
+                </li>
+                <li>
+                    <a class="button" onClick="fillFuse()">
+                        <font size="2" face="Arial Black">Алгоритм затравки</font>
+                    </a>
+                </li>
+                <li>
+                    <a class="button" onClick="fillXor()">
+                        <font size="2" face="Arial Black">Алгоритм XOR</font>
+                    </a>
+                </li>
+                <li>
+                    <a class="button" onClick="fillRecursion()">
+                        <font size="2" face="Arial Black">Рекурсивний алгоритм</font>
+                    </a>
+                </li>
+                <li>
+                    <a class="button" onClick="fill4th()">
+                        <font size="2" face="Arial Black">Чотирьохзв'язний алгоритм</font>
+                    </a>
+                </li>
+            </ul>
+            <!-- <a class="button" onClick="clearScreen()" href="#">
+                <font size="2"  face="Arial Black">Очистити екран</font>
+            </a> -->
+            <span style="font-size:20px">
+                <p id="timeRequired1">Витрачений час для 1 фігури: </p>
+            <!-- </span><br> -->
+            <span style="font-size:20px">
+                <p id="timeRequired2">Витрачений час для 2 фігури: </p>
+            </span><br>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
