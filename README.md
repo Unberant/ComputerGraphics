@@ -1,1 +1,2 @@
-# ComputerGraphics
+# ComputerGraphics  
+# Lab 3
